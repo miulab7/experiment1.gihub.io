@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consent Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-5">Consent Form</h2>
+        <p>Please read the following consent form carefully and indicate your agreement to participate in the experiment.</p>
+        <form action="pre_survey.html" method="post">
+            <div class="form-group">
+                <textarea class="form-control" rows="10" readonly>
+                    [Insert Consent Form Text Here]
+                </textarea>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="consentCheck" required>
+                <label class="form-check-label" for="consentCheck">I agree to participate in the experiment</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Proceed</button>
+        </form>
+    </div>
+</body>
+</html>
